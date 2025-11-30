@@ -80,16 +80,6 @@ public class ForAllPatterns
 //            }
 //        }
 
-        //P Pattern    incomplete
-        for(row=0;row<n;row++,System.out.println())
-        {
-            for(col=0;col<n;col++)
-            {
-                if(row==0 || col==0 || row==n/2)
-                    System.out.print("*");
-                else
-                    System.out.print(" ");
-            }
-        }
     }
 }
+
