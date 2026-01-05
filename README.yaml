@@ -1,72 +1,65 @@
-project:
-  name: Student Management System
-  description: >
-    A simple Java-based Student Management System designed to demonstrate
+Project:
+  Name: Student Management System
+  Description: >
+    #A simple Java-based Student Management System designed to demonstrate
     core Object-Oriented Programming (OOP) concepts such as Encapsulation
     and Inheritance without using collections.
 
-overview:
-  purpose: >
-    This project manages basic student information such as ID, name, and marks.
+Overview:
+  Purpose: >
+    #This project manages basic student information such as ID, name, and marks.
     It allows a teacher to add students and display student details using
     array-based storage.
 
-features:
+Features:
   - Add student details
   - Display all students
   - Uses arrays instead of collections
   - Beginner-friendly OOP design
 
-technologies:
-  language: Java
-  concepts:
+Technologies:
+  Language: Core Java
+  Concepts:
     - Encapsulation
     - Inheritance
-  data_structure: Arrays
-
-project_structure:
-  - StudentApp.java
-  - Person.java
-  - Teacher.java
-  - Student.java
-  - StudentManagement.java
-
-how_to_run:
-  steps:
+    
+  Data_structure: Arrays
+  
+How_to_run:
+  Steps:
     - Clone the repository
-    - Compile all Java files
     - Run the main class
-  commands:
-    compile: "javac *.java"
-    run: "java StudentApp"
-
-sample_output:
+    - javac main_class_name.java
+    - java main_class_name in any editors and CMD.
+    
+    
+Sample_output:
   - "Student added: Kishore"
   - "Student added: Arun"
   - "Student List:"
-  - "101 Kishore 85"
-  - "102 Arun 90"
+  - "101 ABC 85"
+  - "102 XYZ 90"
 
-learning_outcomes:
+Learning_outcomes:
   - Strong understanding of Java OOP fundamentals
   - Hands-on experience with inheritance
   - Practical use of encapsulation
   - Improved problem-solving skills
 
-future_enhancements:
+Future_enhancements:
   - Menu-driven program using Scanner
   - Student search functionality
   - File handling support
   - Exception handling
 
-author:
-  name: Kishore Saravanan
-  qualification: BE CSE 2nd Year
-  interests:
+Author:
+  Name: Kishore Saravanan
+  Qualification: BE CSE 2nd Year
+  Interests:
     - Java
     - Data Structures
     - Algorithms
 
-license:
-  type: Educational
-  note: This project is created for learning and academic purposes only.
+License:
+  Type: Educational
+  Note: This project is created for learning and academic purposes only.
